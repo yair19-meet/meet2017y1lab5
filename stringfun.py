@@ -5,5 +5,8 @@ def string_test(s):
 
 def add_x(s):
     s.append('x')
+    s.reverse()
+    s.append('x')
+    s.reverse()
     
     return s

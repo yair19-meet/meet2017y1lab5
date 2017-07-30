@@ -2,7 +2,7 @@
 def add_numbers(start, end):
     c = 0
     for number in range(start, end + 1):
-        print(number)
+        #print(number)
         c = c + number
     return(c)
     
